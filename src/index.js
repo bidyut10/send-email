@@ -6,7 +6,7 @@ require("dotenv").config();
 const axios = require('axios');
 app.use(cors());
 app.use(cors({
-    origin: 'https://aquamarine-raindrop-7a1d70.netlify.app'
+    origin: 'https://aquamarine-raindrop-7a1d70.netlify.app/'
 }));
 const db =require('./database/db')
 
